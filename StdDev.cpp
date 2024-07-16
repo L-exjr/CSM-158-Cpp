@@ -3,11 +3,6 @@
 
 using namespace std;
 
-/*
-Array=number of elements
-Var=Sum(diff(Ele-mean)^2)/number of elements
-*/
-
 int main(){
     int N = 0;
     
