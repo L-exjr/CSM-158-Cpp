@@ -41,10 +41,11 @@ int main(){
     if (sum==number)
         cout << "The number " << number <<" divisors sum up to " << sum << " so the number is a perfect number";
 
-    else if (sum<<number)
+    else if (sum<number)
         cout << "The number " << number <<" divisors sum up to " << sum << " so the number is a deficient number";
 
     else
         cout << "The number " << number <<" divisors sum up to " << sum << " so the number is a abundant number";    
+    
     return 0;
 }
